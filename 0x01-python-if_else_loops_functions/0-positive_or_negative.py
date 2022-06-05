@@ -2,14 +2,17 @@
 import random
 number = random.randint(-10, 10)
 
-def positive_zero_or_negative(a):
-
+def zero_positive_or_negative(n):
+    """
+    prints a number is positive, negative, or zero
+    """
     if n == 0:
-        return f"{a:d} is zero"
+        return f"{n:d} is zero"
     elif n > 1:
-        return f"{a:d} is positive"
+        return f"{n:d} is positive"
     else:
-        return f"{a:d} is negative"
+        return f"{n:d} is negative"
 
-    if __name __ == "__main__":
-        print(positive_zero_or_negative(number))
+
+if __name__ == "__main__":
+    print(zero_positive_or_negative(number))
