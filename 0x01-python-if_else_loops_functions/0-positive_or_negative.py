@@ -2,6 +2,7 @@
 import random
 number = random.randint(-10, 10)
 
+
 def zero_positive_or_negative(n):
     """
     prints a number is positive, negative, or zero
